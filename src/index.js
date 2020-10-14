@@ -6,10 +6,11 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
+    'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'prettier/@typescript-eslint',
     'prettier/react',
+    'prettier/@typescript-eslint',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -20,7 +21,7 @@ module.exports = {
     project: './tsconfig.json',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'react'],
   rules: {
     '@typescript-eslint/array-type': ['error', {default: 'array'}],
     '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
