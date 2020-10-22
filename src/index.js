@@ -138,7 +138,7 @@ module.exports = {
     'no-new-wrappers': 'error',
     'no-return-await': 'error',
     'no-unused-labels': 'error',
-    'no-unused-vars': ['error', {args: 'none'}],
+    'no-unused-vars': ['warn', {args: 'none'}],
     quotes: [
       'error',
       'single',
