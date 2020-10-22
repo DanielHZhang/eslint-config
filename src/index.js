@@ -24,6 +24,7 @@ module.exports = {
   plugins: ['@typescript-eslint', 'react'],
   rules: {
     '@typescript-eslint/array-type': ['error', {default: 'array'}],
+    '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
     '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
     '@typescript-eslint/consistent-type-assertions': [
@@ -89,6 +90,7 @@ module.exports = {
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-type-arguments': 'error',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
+    '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-use-before-define': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/no-var-requires': 'off',
@@ -136,6 +138,7 @@ module.exports = {
     'no-new-wrappers': 'error',
     'no-return-await': 'error',
     'no-unused-labels': 'error',
+    'no-unused-vars': ['error', {args: 'none'}],
     quotes: [
       'error',
       'single',
