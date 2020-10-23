@@ -22,12 +22,6 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-      - name: Clean install of dependencies, build, and test
-        # Avoid `yarn.lock` changes.
-        run: |
-          yarn install --frozen-lockfile
-          yarn build
-          yarn test
       - name: Configure git auth
         # Use bot username and email
         run: |
