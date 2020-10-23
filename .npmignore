@@ -1,14 +1,16 @@
+.github/
 .vscode/
 test/
 .babelrc
 .editorconfig
 .eslintignore
 .eslintrc
-.eslintrc.js
 .gitignore
 .prettierignore
 .prettierrc
 jest.config.js
 nodemon.json
+package-lock.json
 tsconfig.json
 tsconfig.build.json
+yarn.lock
