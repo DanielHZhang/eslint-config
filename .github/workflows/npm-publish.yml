@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
-    name: Publish the release to NPM
+    name: Publish release to NPM
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
