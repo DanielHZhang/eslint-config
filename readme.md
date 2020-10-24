@@ -2,7 +2,6 @@
 
 ### Plugins:
 
-- eslint-plugin-react
 - @typescript-eslint/eslint-plugin
 
 ### Extended configs:
