@@ -84,6 +84,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-invalid-void-type': 'error',
     '@typescript-eslint/no-misused-new': 'error',
+    '@typescript-eslint/no-namespace': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
