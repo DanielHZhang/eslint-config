@@ -39,6 +39,15 @@ module.exports = {
         accessibility: 'explicit',
       },
     ],
+    '@typescript-eslint/explicit-module-boundary-types': [
+      'warn',
+      {
+        allowArgumentsExplicitlyTypedAsAny: true,
+        allowDirectConstAssertionInArrowFunctions: true,
+        allowHigherOrderFunctions: true,
+        allowTypedFunctionExpressions: true,
+      },
+    ],
     '@typescript-eslint/func-call-spacing': 'error',
     '@typescript-eslint/member-delimiter-style': [
       'error',
