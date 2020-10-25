@@ -1,7 +1,7 @@
 {
   "name": "@supersede/eslint-config",
   "description": "The optimal eslint configuration",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Daniel Zhang",
   "license": "MIT",
   "repository": {
